@@ -1,11 +1,12 @@
 'use strict'
-//ALERTA
-// alert("Esta es una alerta!!");
+// alert("si funciona");
+// ALERTA
+// alert("así funciona alert");
 
-//CONFIRMACIÒN
-/* var resultado = confirm("¿Estas seguro de querer continuar?");
-console.log(resultado); */
+// CONFIRMACIÓN
+// var mi_resultado = confirm("¿Estas seguro?");
+// console.log(mi_resultado);
 
-//INGRESO DE DATOS
-/* var edad = prompt("¿Que edad tienes?","");
-console.log(edad); */
+// INGRESOS DE DATOS
+var mi_seg_result = prompt("¿Que edad tienes","Escribe tú edad aquí");
+console.log(mi_seg_result);

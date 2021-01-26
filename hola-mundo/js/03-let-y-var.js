@@ -1,20 +1,22 @@
 'use strict'
-var num = 1;
-document.write(num);
-document.write("</br></br>");
-if(true){
-var num = 23;
-document.write(num);
-document.write("</br></br>");
-};
-document.write(num);
-document.write("</br>");
+// Pruebas con Let y Var
+var años = 34;
+console.log(años); //valor 34
 
-var texto = "german";
+if (true) {
+	var años = 35;
+	console.log(años); //valor 35
+} 
 
-console.log (texto);
-if(true){
-    let texto = "Parietti";
-    console.log(texto);
+console.log(años); //valor 35
+
+// Prueba con Let
+var texto = "Variable";
+console.log (texto); //valor Variable
+
+if (true) {
+	let texto = "Let";
+	console.log (texto); //valor Let
 }
-console.log(texto);
+
+console.log (texto); //valor Variable

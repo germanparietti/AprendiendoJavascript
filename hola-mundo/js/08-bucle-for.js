@@ -1,10 +1,13 @@
 'use strict'
-// Bucle FOR 
-// Un bucle es una estructura de control que se repite varias veces
+// alert("Bucle for");
+/*
+//Bucle FOR
+Un bucle es una estructura de control que se repite varias veces
+*/
 
-var num = 100;
+var numero = 10;
+for(var i=0; i<= numero; i++){
+	console.log("vamos por el numero " + i);
+	// debugger;
 
-for(var i=0; i<=num; i++){
-    console.log("Vamos por el numero ",+i);
-    //debugger;
 }

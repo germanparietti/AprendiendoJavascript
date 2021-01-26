@@ -1,11 +1,16 @@
 'use strict'
-// Variables
-//Una variable es un contenedor de información
-var pais = "España";
-var continente = "Europa";
-const nacimiento = 1005;
-let prueba = 1021;
-document.write(pais," ",continente," ", nacimiento);
-document.write(" ");
-document.write(prueba + 1000);
-console.log(prueba);
+
+// VARIABLES
+// Una variable es un contenedor de información
+
+var pais = "Argentina";
+var continente = "America del Sur";
+var año = 2020
+var pais_y_continente = pais+" "+ continente;
+let prueba = "Hola";
+alert(prueba);
+
+pais = "España";
+continente = "Europa";
+console.log(continente, pais, año);
+alert(pais_y_continente);

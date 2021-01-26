@@ -1,10 +1,11 @@
 'use strict'
-//Constante
-//Una constante es como una variable, pero su valor no puede cambiar
+// Constantes
+// Es un contenedor como una variable, pero su valor es fijo y no puede cambiar
 
-var web = "https://germanparietti.myshopify.com/admin";
-const ip = "192.88.0.12";
+var web = "https://ciroautomotores.com.ar/";
+const ip = "104.28.27.51";
 
-web = "https://victorroblescursos.es";
-// ip = "1265464";
-console.log(web,ip)
+web = "se cambio la dirección web";
+console.log(web , ip);
+
+ip = "134514" 
